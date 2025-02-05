@@ -1,5 +1,5 @@
 # TicketsDump
-Minimal Rubeus implementation, supporting tgtdeleg with impersonation
+Minimal Rubeus implementation, supporting tgtdeleg with impersonation [see Rubeus PR](https://github.com/GhostPack/Rubeus/pull/197)
 
 ## Usage
 
