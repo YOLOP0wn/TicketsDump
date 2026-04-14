@@ -464,7 +464,7 @@ namespace TicketsDump
                     {
                         if (ticket.KrbCred != null)
                         {
-                            DisplayTicket(ticket.KrbCred, 4, false, true, false);
+                            DisplayTicket(ticket.KrbCred, 4, true, true, false);
                         }
                     }
                 }
