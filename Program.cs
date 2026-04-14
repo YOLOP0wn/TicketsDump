@@ -164,7 +164,7 @@ internal class Program
        
         if (command.Equals("get"))
         {
-            List<LSA.SESSION_CRED> sessionCreds = LSA.EnumerateTickets(false, id, Service, User, Server, true);
+            List<LSA.SESSION_CRED> sessionCreds = LSA.EnumerateTickets(true, id, Service, User, Server, true);
             LSA.DisplaySessionCreds(sessionCreds, LSA.TicketDisplayFormat.Full);
         }
 
